@@ -1,0 +1,43 @@
+// Reset styles for browsers consistency
+// -------------------------------------
+
+// Remove default padding
+ul,
+ol {
+  padding: 0;
+}
+
+// Remove default margin
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+// Set core body defaults
+body {
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+}
+
+// Remove list styles on ul, ol elements with a class attribute
+ul,
+ol {
+  list-style: none;
+}
+
+// Remove link underlines
+a {
+  text-decoration: none;
+}

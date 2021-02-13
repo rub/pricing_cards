@@ -1,0 +1,15 @@
+.button {
+  background: var(--accent);
+  border-radius: 4px;
+  color: var(--text-03);
+  display: inline-block;
+  font-weight: bold;
+  padding: 0.85rem;
+  text-align: center;
+  width: 100%;
+
+  &.inverted {
+    background-color: var(--ui-01);
+    color: var(--accent);
+  }
+}

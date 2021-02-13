@@ -4,7 +4,7 @@
   "description": "A simple playground using Sass",
   "main": "index.js",
   "scripts": {
-    "compile:sass": "node-sass sass/main.scss style.css -w"
+    "compile:sass": "node-sass sass/main.scss style.css"
   },
   "repository": "git@github.com:rub/pricing_cards.git",
   "author": "Alessio Rapini <alessio.rapini@yahoo.it>",
