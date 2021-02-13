@@ -1,0 +1,11 @@
+# General
+/.cache
+
+# Dependencies
+/node_modules
+
+# Public
+style.css
+
+# MacOS
+*.DS_Store
