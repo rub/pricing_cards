@@ -6,6 +6,10 @@ A simple playground using Sass.
 
 Built using [Sass](https://sass-lang.com/).
 
+I used the [Trello styleguide](https://gist.github.com/bobbygrace/9e961e8982f42eb91b80#file-trello-css-guide-md) as a reference to write the CSS.
+
+I used the [7-1 pattern](https://sass-guidelin.es/#the-7-1-pattern) to organize the Sass architecture.
+
 ## Getting started
 
 These instructions will get you a copy of the project up and
@@ -15,8 +19,8 @@ running on your local machine for contributions or testing purposes.
 
 What things you need to run the website:
 
-- Node.js
-- Yarn
+- [Node.js](https://nodejs.org/en/)
+- [Yarn](https://yarnpkg.com/)
 
 ### Setup
 
@@ -45,7 +49,7 @@ Open `index.html`
 
 #### Launch the project on an external device
 
-If you need to launch the project on an external device (a tablet or a mobile phone) you can run a simple local server with Python.
+If you need to launch the project on an external device (a tablet or a mobile phone) you can run a simple local server with [Python](https://www.python.org/).
 
 1. Connect the external device to the same Wi-Fi network that your computer is using.
 
