@@ -1,27 +1,5 @@
 // Pricing box breakpoints
 $medium-screen: 900px;
-$small-screen: 560px;
-
-// [1] Regain the width cut by the left and right padding,
-//     this way we get the same default width given by the design specs.
-.pricing_table {
-  display: grid;
-  grid-column-gap: 2.5%;
-  grid-template-columns: repeat(3, 1fr);
-  max-width: calc(1140px + 4rem); // [1]
-  padding: 2rem;
-  width: 100%;
-
-  @media (max-width: $medium-screen) {
-    grid-gap: 2rem;
-    grid-template-columns: 1fr;
-    max-width: 480px;
-  }
-
-  @media (max-width: $small-screen) {
-    padding: 2rem 1rem;
-  }
-}
 
 // Play with margins and flexbox to make the left and right cards
 // shorter and centered
@@ -39,7 +17,7 @@ $small-screen: 560px;
     margin: 0;
   }
 
-  &.accent {
+  &.mod-accent {
     background-color: var(--accent);
     color: var(--text-03);
     margin: 0;
@@ -54,12 +32,12 @@ $small-screen: 560px;
   font-size: 3rem;
   margin-top: 1rem;
   text-align: center;
+}
 
-  & span {
-    color: var(--text-02);
-    font-size: 1.5rem;
-    margin-left: 0.25rem;
-  }
+.pricing_box-price-frequency {
+  color: var(--text-02);
+  font-size: 1.5rem;
+  margin-left: 0.25rem;
 }
 
 .pricing_box-features {
@@ -77,13 +55,13 @@ $small-screen: 560px;
   &:last-child {
     border: none;
   }
-
-  & span:first-child {
-    color: var(--text-02);
-  }
 }
 
-// Turn the labels of the accent card white
-.pricing_box.accent .pricing_box-features-item span:first-child {
+.pricing_box-features-item-label {
+  color: var(--text-02);
+}
+
+// Turn the accent card's labels white
+.pricing_box.mod-accent .pricing_box-features-item-label {
   color: var(--text-03);
 }
